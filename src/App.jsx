@@ -1,7 +1,10 @@
 import React from 'react';
 
-const App = () => (
-    <div>App</div>
-);
+function App() {
+  const salute = (name) => `Hi ${name}`;
+  return (
+      <div>App..{salute('david')}</div>
+  );
+}
 
 export default App;
