@@ -1,14 +1,8 @@
-import React from 'react';
-
-// imported Prototype from React main
-import PropTypes from 'prop-types';
 
 // Imported Icons from React-Icons
 import {AiOutlineSearch, AiOutlineCloseCircle} from 'react-icons/ai'
 import {BsBuildings} from 'react-icons/bs'
 import {CiLocationOn} from 'react-icons/ci'
-
-Search.propTypes = {};
 
 function Search() {
   return (

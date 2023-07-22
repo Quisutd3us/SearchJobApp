@@ -1,7 +1,3 @@
-import React from 'react';
-
-// imported Prototype from React main
-import PropTypes from 'prop-types';
 
 // Imported Icons from React-Icons
 import {BiTimeFive} from 'react-icons/bi'
@@ -20,14 +16,13 @@ import logoShield from '../../Assets/shield.png'
 import logoPaper from '../../Assets/paper-plane.png'
 
 
-// Simulate DB
-
+// Function that generate and return a random Id's for Jobs
 const idGen = () => {
   const random = Math.random().toString(36).substring(2)
   const dateNow = Date.now().toString(36)
   return random + dateNow
 };
-
+// Simulate DB
 const DB = [
   {
     id: idGen(),
@@ -114,7 +109,6 @@ const DB = [
   },
 ]
 
-Jobs.propTypes = {};
 
 function Jobs() {
   return (
