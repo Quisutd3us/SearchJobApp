@@ -6,16 +6,16 @@ import {CiLocationOn} from 'react-icons/ci'
 
 function Search() {
   return (
-      <div className={'searchDiv grid gap-10 bg-grayIsh rounded-[10px] p-[3rem]'}>
+      <div className={'searchDiv flex flex-col gap-10 bg-grayIsh rounded-[10px] p-[3rem]'}>
         {/*search From*/}
         <form action={''}>
-          <div className="firstDiv flex justify-evenly items-center rounded-[8px] gap-5 bg-white p-5 shadow-lg shadow-grayIsh-800">
+          <div className="firstDiv max-w-fit flex sm:flex-col xl:flex-row justify-between items-center rounded-[8px] gap-3 bg-white p-5 shadow-lg shadow-grayIsh-800">
             {/*input Search by Job*/}
             <div className="flex gap-2 items-center  justify-between">
               <AiOutlineSearch className={'text-[25px] icon'}/>
               <input
                   type={'text'}
-                  className={'bg-transparent text-blueColor focus:outline-none  w-[100%}'}
+                  className={'bg-transparent text-blueColor focus:outline-none  max-w-fit '}
                   placeholder={'Search your Job Here...'}/>
               <AiOutlineCloseCircle className={'text-[30px] icon text-[#a5a6a6] hover:text-textColor icon'}/>
             </div>
@@ -24,7 +24,7 @@ function Search() {
               <BsBuildings className={'text-[25px] icon'}/>
               <input
                   type={'text'}
-                  className={'bg-transparent text-blueColor focus:outline-none  w-[100%}'}
+                  className={'bg-transparent text-blueColor focus:outline-none  max-w-fit'}
                   placeholder={'Search by Company...'}/>
               <AiOutlineCloseCircle className={'text-[30px] icon text-[#a5a6a6] hover:text-textColor icon'}/>
             </div>
@@ -33,7 +33,7 @@ function Search() {
               <CiLocationOn className={'text-[25px] icon'}/>
               <input
                   type={'text'}
-                  className={'bg-transparent text-blueColor focus:outline-none  w-[100%}'}
+                  className={'bg-transparent text-blueColor focus:outline-none  max-w-fit'}
                   placeholder={'Search by Location..'}/>
               <AiOutlineCloseCircle className={'text-[30px] icon text-[#a5a6a6] hover:text-textColor icon'}/>
             </div>
