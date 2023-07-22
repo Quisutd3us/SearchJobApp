@@ -19,7 +19,7 @@ const idGen = () => {
 };
 
 const DB = [{
-  id: 123,
+  id: idGen(),
   image: logoLine,
   title: 'Web Developer',
   time: 'Now',
@@ -28,7 +28,8 @@ const DB = [{
   company: 'Novac Limit Co.'
 }]
 
-Jobs.propTypes = {};
+Jobs.propTypes = {
+};
 
 function Jobs() {
   return (
