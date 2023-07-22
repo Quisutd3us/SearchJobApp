@@ -9,6 +9,16 @@ import {BiTimeFive} from 'react-icons/bi'
 // Imported Images
 
 import logoLine from '../../Assets/line.png'
+import logoAdobe from '../../Assets/adobe.png'
+import logoChat from '../../Assets/chat.png'
+import logoEA from '../../Assets/electronics-arts.png'
+import logoHuawei from '../../Assets/huawei.png'
+import logoSimple from '../../Assets/simple.png'
+import logoSkull from '../../Assets/skull.png'
+import logoVk from '../../Assets/vk.png'
+import logoShield from '../../Assets/shield.png'
+import logoPaper from '../../Assets/paper-plane.png'
+
 
 // Simulate DB
 
@@ -18,18 +28,93 @@ const idGen = () => {
   return random + dateNow
 };
 
-const DB = [{
-  id: idGen(),
-  image: logoLine,
-  title: 'Web Developer',
-  time: 'Now',
-  location: 'Canada',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
-  company: 'Novac Limit Co.'
-}]
+const DB = [
+  {
+    id: idGen(),
+    image: logoLine,
+    title: 'Web Developer',
+    time: 'Now',
+    location: 'Canada',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Novac Limit Co.'
+  },
+  {
+    id: idGen(),
+    image: logoAdobe,
+    title: 'Designer',
+    time: 'Now',
+    location: 'Colombia',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'All Design Co.'
+  },
+  {
+    id: idGen(),
+    image: logoChat,
+    title: 'Backend',
+    time: 'Now',
+    location: 'EEUU',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Ai company.'
+  },{
+    id: idGen(),
+    image: logoEA,
+    title: 'Origin Dev',
+    time: 'Now',
+    location: 'London',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'EA Sports.'
+  },{
+    id: idGen(),
+    image: logoHuawei,
+    title: 'Cisco CIIA',
+    time: 'Now',
+    location: 'London',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Huawei.'
+  },{
+    id: idGen(),
+    image: logoSimple,
+    title: 'FrontEnd Dev React',
+    time: 'Now',
+    location: 'Colombia',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Simple Ltda.'
+  },{
+    id: idGen(),
+    image: logoVk,
+    title: 'FrontEnd Dev Vue-js ReactJs',
+    time: 'Now',
+    location: 'Colombia',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Vk International.'
+  },{
+    id: idGen(),
+    image: logoSkull,
+    title: 'FullStack NodeJs MongoDb',
+    time: 'Now',
+    location: 'Panama',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Skull Developers.'
+  },{
+    id: idGen(),
+    image: logoShield,
+    title: 'FullStack Goland',
+    time: 'Now',
+    location: 'Colombia',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Shield Solutions CyberSecurity.'
+  },{
+    id: idGen(),
+    image: logoPaper,
+    title: 'C++ Genius',
+    time: 'Now',
+    location: 'Colombia',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio soluta tenetur voluptas!',
+    company: 'Paper Solutions SAS.'
+  },
+]
 
-Jobs.propTypes = {
-};
+Jobs.propTypes = {};
 
 function Jobs() {
   return (
