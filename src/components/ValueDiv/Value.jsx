@@ -40,6 +40,14 @@ function Value() {
             </div>
             <p className={'text-[13px] text-textColor opacity-[0.7] py-[1rem] font-semibold'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A blanditiis ex inventore molestias ratione totam!</p>
           </div>
+        </div>
+        {/*cards*/}
+        <div className="card mt-[2rem] flex justify-between bg-blueColor p-[5rem] rounded-[10px]">
+          <div>
+            <h1 className={'text-blueColor text-[30px] font-bold'}>Ready to Switch a Career</h1>
+            <h2 className={'text-textColor text-[25px] font-bold'}>Lets get Started!</h2>
+          </div>
+          <button className={'border-[2px] rounded-[10px] py-[4px] px-[10px] text-[18px] font-semibold text-blueColor hover:bg-white border-blueColor'}>get Started</button>
 
         </div>
       </div>

@@ -33,7 +33,7 @@ li:hover::before {
     cursor: pointer;
 }
 
-/*.card{*/
-/*    background: black;*/
-/*}*/
+.card{
+    background: no-repeat right url("src/Assets/banner2.jpg");
+}
 
